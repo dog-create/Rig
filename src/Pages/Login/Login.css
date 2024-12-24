@@ -1,14 +1,13 @@
-/* Login.css */
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #89A8B2, #B3C8CF); /* Gradient background */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh; /* Full viewport height */
-  }
+
+  body {
+      padding: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #89A8B2, #B3C8CF); /* Gradient background */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh; /* Full viewport height */
+    }
   
   .login-container {
     max-width: 400px;
