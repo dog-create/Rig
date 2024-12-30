@@ -1,0 +1,151 @@
+{
+    "rigs": [
+        {
+            "rig_id": "RIG-001",
+            "location": {
+                "name": "Location-1",
+                "coordinates": {
+                    "latitude": 17.4636904,
+                    "longitude": 78.3432598
+                }
+            },
+            "pto_status": true,
+            "fuel_level": 98,
+            "drilling_depth": [
+                {"depth": 0, "timestamp": "2024-07-01T12:00:00Z"},
+                {"depth": 3000, "timestamp": "2024-07-01T12:30:00Z"},
+                {"depth": 6000, "timestamp": "2024-07-01T13:00:00Z"}
+            ],
+            "status": false,
+            "engine_temperature": 114.96,
+            "alert": {
+                "message": "Rig not operational",
+                "timestamp": "2021-07-01T12:00:00Z"
+            }
+        },
+        {
+            "rig_id": "RIG-002",
+            "location": {
+                "name": "Location-2",
+                "coordinates": {
+                    "latitude": -82.455852,
+                    "longitude": 108.935885
+                }
+            },
+            "pto_status": true,
+            "fuel_level": 77,
+            "drilling_depth": [
+                {"depth": 0, "timestamp": "2024-07-01T12:00:00Z"},
+                {"depth": 1600, "timestamp": "2024-07-01T12:30:00Z"},
+                {"depth": 3242, "timestamp": "2024-07-01T13:00:00Z"}
+            ],
+            "status": true,
+            "engine_temperature": 77.5,
+            "alert": {
+                "message": "Low fuel level",
+                "timestamp": "2021-07-01T12:00:00Z"
+            }
+        },
+        {
+            "rig_id": "RIG-003",
+            "location": {
+                "name": "Location-3",
+                "coordinates": {
+                    "latitude": 51.203692,
+                    "longitude": 102.022012
+                }
+            },
+            "pto_status": false,
+            "fuel_level": 35,
+            "drilling_depth": [
+                {"depth": 0, "timestamp": "2024-07-01T12:00:00Z"},
+                {"depth": 600, "timestamp": "2024-07-01T12:30:00Z"},
+                {"depth": 1156, "timestamp": "2024-07-01T13:00:00Z"}
+            ],
+            "status": true,
+            "engine_temperature": 52.56,
+            "alert": {
+                "message": "No issues detected",
+                "timestamp": "2021-07-01T12:00:00Z"
+            }
+        },
+        {
+            "rig_id": "RIG-004",
+            "location": {
+                "name": "Location-4",
+                "coordinates": {
+                    "latitude": -28.620519,
+                    "longitude": -92.080293
+                }
+            },
+            "pto_status": false,
+            "fuel_level": 84,
+            "drilling_depth": [
+                {"depth": 0, "timestamp": "2024-07-01T12:00:00Z"},
+                {"depth": 1500, "timestamp": "2024-07-01T12:30:00Z"},
+                {"depth": 3172, "timestamp": "2024-07-01T13:00:00Z"}
+            ],
+            "status": false,
+            "engine_temperature": 102.88,
+            "alert": {
+                "message": "Rig not operational",
+                "timestamp": "2021-07-01T12:00:00Z"
+            }
+        },
+        {
+            "rig_id": "RIG-005",
+            "location": {
+                "name": "Location-5",
+                "coordinates": {
+                    "latitude": 61.577135,
+                    "longitude": 60.491487
+                }
+            },
+            "pto_status": true,
+            "fuel_level": 43,
+            "drilling_depth": [
+                {"depth": 0, "timestamp": "2024-07-01T12:00:00Z"},
+                {"depth": 600, "timestamp": "2024-07-01T12:30:00Z"},
+                {"depth": 1070, "timestamp": "2024-07-01T13:00:00Z"}
+            ],
+            "status": false,
+            "engine_temperature": 108.52,
+            "alert": {
+                "message": "Rig not operational",
+                "timestamp": "2021-07-01T12:00:00Z"
+            }
+        },
+        {
+            "rig_id": "RIG-006",
+            "location": {
+                "name": "Location-6",
+                "coordinates": {
+                    "latitude": -18.899008,
+                    "longitude": -155.067524
+                }
+            },
+            "pto_status": false,
+            "fuel_level": 47,
+            "drilling_depth": [
+                {"depth": 0, "timestamp": "2024-07-01T12:00:00Z"},
+                {"depth": 2000, "timestamp": "2024-07-01T12:30:00Z"},
+                {"depth": 4718, "timestamp": "2024-07-01T13:00:00Z"}
+            ],
+            "status": false,
+            "engine_temperature": 109.13,
+            "alert": {
+                "message": "Rig not operational",
+                "timestamp": "2021-07-01T12:00:00Z"
+            }
+        }
+      
+    ],
+    "summary": {
+        "total_rigs": 10,
+        "total_pto_status": 4,
+        "alerts_total": 6,
+        "average_fuel_level": 52.26,
+        "inactive_rigs": 4,
+        "inmovement_rigs": 6
+    }
+}

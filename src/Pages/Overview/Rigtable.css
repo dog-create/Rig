@@ -1,0 +1,32 @@
+.table-responsive {
+    position: relative;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 20px;
+    
+    
+
+}
+
+
+.sticky-header th{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    background-color: rgba(22, 22, 22, 0.97);
+    color: white;
+    font-weight: 300;
+    border-color: #3b3b3b;
+
+}
+
+
+.table-body td{
+    background-color: #262626;
+    color: white;
+    border-color: #3b3b3b;
+    font-weight: 300;
+    
+}

@@ -7,15 +7,15 @@ export default class Topbar extends Component {
   render() {
     return (
       <div>
-         <Navbar className="bg-body-tertiary">
+         <Navbar className=" navbar-tm" expand="lg">  
       <Container>
-        <Navbar.Brand >LogoIcon</Navbar.Brand>
+        <Navbar.Brand  className='text-white  '>LogoIcon</Navbar.Brand>    
         <Navbar.Collapse className="justify-content-end">
 
         </Navbar.Collapse>
         <Navbar.Toggle />
         
-          <Navbar.Text>
+          <Navbar.Text className='text-white'>   
              AccountIcon  
           </Navbar.Text>
       </Container>

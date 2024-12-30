@@ -1,0 +1,68 @@
+.alert-card {
+    background-color: #262626; 
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+.alert-card h4 {
+    margin-top: 0;
+}
+
+.alert-card p {
+    margin-bottom: 0;
+}
+
+.alert-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #856404;
+    border-radius: 5px;
+}
+
+.alert-item.red {
+    background-color: #721c2552; 
+    color: white ; 
+}
+
+.alert-item.yellow {
+    background-color: #85650448; 
+    color: white; 
+}
+
+.alert-item p {
+    margin: 5px 0;
+}
+
+
+.alert-content {
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.alert-icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.alert-list{
+    list-style-type: none;
+    padding: 0;
+    max-height: 300px;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.alert-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}

@@ -1,23 +1,29 @@
 import React from 'react';
 import { useRoutes } from 'react-router-dom';
 import Topbar from '../Topbar/Topbar';
-import Dashboard from '../../Pages/Dashboard/Dash';
 import Login from '../../Pages/Login/Login';
-
-import Signup from '../../Pages/Signup/Signup';
+import Sidebar from '../Sidebar/Sidebar';
+import './MainLayout.css';
+import Overview from '../../Pages/Overview/Overview';
+import Rigs from '../../Pages/Rigs/Main';
 
 const MainLayout = () => {
   const routes = useRoutes([
-{path: '/Dashboard', element: <Dashboard />},
-{path: '/', element: <Login />},
-{path: '/Signup', element: <Signup />},
+{path:'/Login', element: <Login />},
+{path:'/overview', element: <Overview />},
+{path:'/Rigs', element: <Rigs />}
   ]);
 
   return (
-    <div>
-      <Topbar />
-      {routes}
+    <div className="layout">
+    <Topbar />
+    <div className="content">
+      <Sidebar />
+      <div className="main-content">
+        {routes}
+      </div>
     </div>
+  </div>
   );
 };
 

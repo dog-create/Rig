@@ -1,5 +1,10 @@
 .App {
   text-align: center;
+ scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+:root{
+  --bg-color: #262626; 
 }
 
 .App-logo {
@@ -22,6 +27,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  scrollbar-width: none;
+    -ms-overflow-style: none;
 }
 
 .App-link {

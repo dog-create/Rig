@@ -1,0 +1,33 @@
+.layout {
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+     scrollbar-width: none;
+    -ms-overflow-style: none;
+    
+}
+.layout::-webkit-scrollbar {
+    display: none;
+}
+
+.content {
+    display: flex;
+    flex: 1;
+    height: 100vh;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto;
+    height: fit-content;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    max-height: 100vh;
+
+    
+} 
+
+.main-content::-webkit-scrollbar {
+    display: none;
+}
